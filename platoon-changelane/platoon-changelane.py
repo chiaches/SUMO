@@ -99,7 +99,7 @@ def pushforfull_lane2(T_PUSH, SPEED, N_VEHICLES, LENGTH, DISTANCE, exitlane_a, R
         Remaining_LEADER += 1
 
     for i in range(Remaining_LEADER, Remaining_LEADER + N_pi):
-        traci.vehicle.changeLane("lane2.%d" % i, 2, 1)
+        traci.vehicle.changeLane("lane2.%d" % i, 2, 10)
         traci.vehicle.setMinGap("lane2.%d" % i, 0)
 
         # leader ACC model, following CACC model
