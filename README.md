@@ -6,4 +6,4 @@
 * When T_PUSH=30 seconds → generate vehicles every 40 seconds.  
   
   
-![image]( https://github.com/chiaches/SUMO/blob/main/platoon-changelane.gif)
+
